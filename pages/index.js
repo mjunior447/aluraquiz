@@ -4,6 +4,7 @@ import Widget from '../src/components/Widget'
 import GitHubCorner from '../src/components/GitHubCorner'
 import Footer from '../src/components/Footer'
 import QuizBackground from '../src/components/QuizBackground'
+import QuizLogo from '../src/components/QuizLogo'
 
 // const BackgroundImage = styled.div`
 //   background-image: url(${db.bg});
@@ -27,6 +28,7 @@ export default function Home() {
   return (
     <QuizBackground backgroundImage = {db.bg}>
       <QuizContainer>
+      <QuizLogo></QuizLogo>
         <Widget>
           <Widget.Header>
             <h1>The legend of Zelda</h1>
